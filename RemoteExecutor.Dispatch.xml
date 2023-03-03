@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RemoteExecutor.Dispatch</name>
+    </assembly>
+    <members>
+        <member name="T:RemoteExecutor.Dispatch.DispatchReflection">
+            <summary>Holder for reflection information generated from Protos/dispatch.proto</summary>
+        </member>
+        <member name="P:RemoteExecutor.Dispatch.DispatchReflection.Descriptor">
+            <summary>File descriptor for Protos/dispatch.proto</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeRequest.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeRequest.ChannelFieldNumber">
+            <summary>Field number for the "channel" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeRequest.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeRequest.HostFieldNumber">
+            <summary>Field number for the "host" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeRequest.VersionFieldNumber">
+            <summary>Field number for the "version" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeRequest.ProcessesFieldNumber">
+            <summary>Field number for the "processes" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.IsRegisteredRequest.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.UnregisterNodeRequest.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.CertificateSignRequest.DnFieldNumber">
+            <summary>Field number for the "dn" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.CertificateSignRequest.HashAlgorithmNameFieldNumber">
+            <summary>Field number for the "hashAlgorithmName" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.CertificateSignRequest.PublicKeyInfoFieldNumber">
+            <summary>Field number for the "publicKeyInfo" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.RegisterNodeReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.IsRegisteredReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.UnregisterNodeReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.CertificateSignReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.CertificateSignReply.CertificateFieldNumber">
+            <summary>Field number for the "certificate" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.Process.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.Process.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.Process.HasArgumentsFieldNumber">
+            <summary>Field number for the "hasArguments" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Dispatch.Process.RolesFieldNumber">
+            <summary>Field number for the "roles" field.</summary>
+        </member>
+        <member name="P:RemoteExecutor.Dispatch.Dispatch.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:RemoteExecutor.Dispatch.Dispatch.DispatchBase">
+            <summary>Base class for server-side implementations of Dispatch</summary>
+        </member>
+        <member name="M:RemoteExecutor.Dispatch.Dispatch.BindService(RemoteExecutor.Dispatch.Dispatch.DispatchBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:RemoteExecutor.Dispatch.Dispatch.BindService(Grpc.Core.ServiceBinderBase,RemoteExecutor.Dispatch.Dispatch.DispatchBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:RemoteExecutor.Node.NodeReflection">
+            <summary>Holder for reflection information generated from Protos/node.proto</summary>
+        </member>
+        <member name="P:RemoteExecutor.Node.NodeReflection.Descriptor">
+            <summary>File descriptor for Protos/node.proto</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.ExecuteRequest.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.ExecuteRequest.ArgumentsFieldNumber">
+            <summary>Field number for the "arguments" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.ExecuteRequest.UserFieldNumber">
+            <summary>Field number for the "user" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.CancelRequest.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.ExecuteReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.ExecuteReply.ProcessIdFieldNumber">
+            <summary>Field number for the "processId" field.</summary>
+        </member>
+        <member name="P:RemoteExecutor.Node.ExecuteReply.HasProcessId">
+            <summary>Gets whether the "processId" field is set</summary>
+        </member>
+        <member name="M:RemoteExecutor.Node.ExecuteReply.ClearProcessId">
+            <summary>Clears the value of the "processId" field</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.CancelReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.QueryReply.RunningProcessesFieldNumber">
+            <summary>Field number for the "runningProcesses" field.</summary>
+        </member>
+        <member name="F:RemoteExecutor.Node.RunningProcess.ProcessIdFieldNumber">
+            <summary>Field number for the "processId" field.</summary>
+        </member>
+        <member name="P:RemoteExecutor.Node.Node.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:RemoteExecutor.Node.Node.NodeClient">
+            <summary>Client for Node</summary>
+        </member>
+        <member name="M:RemoteExecutor.Node.Node.NodeClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for Node</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:RemoteExecutor.Node.Node.NodeClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for Node that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:RemoteExecutor.Node.Node.NodeClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:RemoteExecutor.Node.Node.NodeClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:RemoteExecutor.Node.Node.NodeClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+    </members>
+</doc>

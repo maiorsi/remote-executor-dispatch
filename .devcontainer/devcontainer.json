@@ -5,7 +5,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["ms-dotnettools.csharp","ms-vscode.makefile-tools"]
+      "extensions": ["ms-dotnettools.csharp","ms-vscode.makefile-tools","zxh404.vscode-proto3"]
     }
   }
 }
