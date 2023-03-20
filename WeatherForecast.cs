@@ -1,3 +1,7 @@
+// <copyright file="WeatherForecast.cs" owner="maiorsi">
+// Licenced under the MIT Licence.
+// </copyright>
+
 namespace RemoteExecutor.Dispatch;
 
 public class WeatherForecast

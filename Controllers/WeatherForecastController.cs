@@ -1,3 +1,7 @@
+// <copyright file="WeatherForecastController.cs" owner="maiorsi">
+// Licenced under the MIT Licence.
+// </copyright>
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace RemoteExecutor.Dispatch.Controllers;
